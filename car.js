@@ -3,12 +3,12 @@ module.exports.convertible = true;
 module.exports.speed = 0;
 module.exports.accelerate = (speed) => {
 	this.speed = this.speed + speed;
-	return 'Current speed is ' + speed;
+	return 'The speed was ' + (this.speed - speed) + ', the current speed is ' + this.speed;
 };
-// module.exports.decelerate = (speed) => {
-// 	speed = this.speed - 5;
-// 	return 'Current speed is ' + speed;
-// };
+module.exports.decelerate = (speed) => {
+	this.speed = this.speed - speed;
+	return 'The speed was ' + (this.speed + speed) + ', the current speed is ' + this.speed;
+};
 
 this.accelerate(60);
-// this.decelerate();
+this.decelerate(5);
