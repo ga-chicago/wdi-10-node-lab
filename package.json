@@ -1,0 +1,24 @@
+{
+  "name": "wdi-10-node-lab",
+  "version": "1.0.0",
+  "description": "making module for node lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somersbmatthews/wdi-10-node-lab.git"
+  },
+  "author": "Somers Matthews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somersbmatthews/wdi-10-node-lab/issues"
+  },
+  "homepage": "https://github.com/somersbmatthews/wdi-10-node-lab#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "node": "^9.3.0"
+  }
+}
