@@ -1,19 +1,13 @@
 module.exports.color = 'blue';
 module.exports.convertable = false;
-module.exports.currentSpeed = 0;
+module.exports.currentSpeed = 20;
 
 
 module.exports.accelerate = (speed)=>{
-	return currentSpeed += speed;
+	return this.currentSpeed += speed;
 }
 
 module.exports.decelerate = (speed)=>{
-		return currentSpeeed -= speed;
+	this.currentSpeed = this.currentSpeed - speed;
+	return this.currentSpeed;
 }
-
-// module.exports.printVar = ()=>{
-//  	console.log(color);
-// 	console.log(convertable);
-// }
-
-// printVar();
