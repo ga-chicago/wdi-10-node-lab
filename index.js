@@ -1,4 +1,4 @@
-const car = require('./Car.js');
+ const car = require('./Car.js');
 
 
 console.log("The car is ", car.color);
@@ -10,5 +10,5 @@ if (car.convertible) {
 
 console.log("the current speed is ", car.speed);
 
-car.accelerate(car.speed);
-car.decelerate(car.speed);
+car.accelerate(20);
+car.decelerate(10);
